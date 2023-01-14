@@ -17,8 +17,12 @@ body {
 }
 
 .react-pdf__Page__canvas{
-  width: auto !important;
-  height: 100vh !important;
+  width: 100% !important;
+  height: auto!important;
+}
+.react-pdf__Page__annotations {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 

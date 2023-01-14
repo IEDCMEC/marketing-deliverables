@@ -7,7 +7,7 @@ const App = () => {
         <Router>
             <div className="App">
                 <Routes>
-                    <Route exact path="/" element={<PDF title={"test.pdf"} />} /> 
+                    <Route exact path="/" element={<PDF title={"/Technopreneur_partnershipdeck_compressed.pdf"} />} /> 
                     <Route exact path="/technopreneur23/title" element={<PDF title={"/Pages/Technopreneur/Title_Partner.pdf"}/>} /> 
                     <Route exact path="/technopreneur23/platinum" element={<PDF title={"/Pages/Technopreneur/Platinum_Partnership.pdf"} />} /> 
                     <Route exact path="/technopreneur23/gold" element={<PDF title={"/Pages/Technopreneur/Gold_Partnership.pdf"} />} /> 

@@ -8,7 +8,7 @@ const App = () => {
             <div className="App">
                 <Routes>
                     <Route exact path="/" element={<PDF title={"/Technopreneur_partnershipdeck_compressed.pdf"} />} /> 
-                    <Route exact path="/23/title" element={<PDF title={"/Pages/Technopreneur/Title_Partner.pdf"}/>} /> 
+                    <Route exact path="/23/title" element={<PDF title={"/Pages/Technopreneur/title.pdf"}/>} /> 
                     <Route exact path="/23/platinum" element={<PDF title={"/Pages/Technopreneur/Platinum_Partnership.pdf"} />} /> 
                     <Route exact path="/23/gold" element={<PDF title={"/Pages/Technopreneur/Gold_Partnership.pdf"} />} /> 
                     <Route exact path="/23/custom" element={<PDF title={"/Pages/Technopreneur/Custom_Partnership.pdf"} />} /> 

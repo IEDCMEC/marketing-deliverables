@@ -8,6 +8,8 @@ const App = () => {
             <div className="App">
                 <Routes>
                     <Route exact path="/" element={<PDF title={"Techno2024.pdf"} />} /> 
+                    <Route exact path="/23" element={<PDF title={"Technopreneur_Partnership_Deck.pdf"} />} /> 
+
                     <Route exact path="/23/title" element={<PDF title={"/Pages/Technopreneur/title.pdf"}/>} /> 
                     <Route exact path="/23/platinum" element={<PDF title={"/Pages/Technopreneur/Platinum_Partnership.pdf"} />} /> 
                     <Route exact path="/23/gold" element={<PDF title={"/Pages/Technopreneur/Gold_Partnership.pdf"} />} /> 
